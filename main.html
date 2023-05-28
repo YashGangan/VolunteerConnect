@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VolunteerConnect</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>VolunteerConnect</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Opportunities</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="search-section">
+        <h2>Find Volunteer Opportunities</h2>
+        <form id="search-form">
+          <input type="text" id="keyword-input" placeholder="Enter keywords (e.g., environment, education)">
+          <input type="text" id="location-input" placeholder="Enter location">
+          <select id="category-select">
+            <option value="">Select a category</option>
+            <option value="education">Education</option>
+            <option value="environment">Environment</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="community">Community</option>
+          </select>
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section id="results-section">
+        <h2>Search Results</h2>
+        <ul id="results-list">
+          <!-- Search results will be dynamically populated here -->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 VolunteerConnect. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
